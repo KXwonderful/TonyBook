@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/book_home"
+            android:checked="true"
+            android:title="@string/book_home" />
+        <item
+            android:id="@+id/nav_turnover"
+            android:icon="@mipmap/book_turnover"
+            android:title="@string/book_turnover" />
+        <item
+            android:id="@+id/nav_chart"
+            android:icon="@mipmap/book_chart"
+            android:title="@string/book_chart" />
+        <item
+            android:id="@+id/nav_tip"
+            android:icon="@mipmap/book_tip"
+            android:title="@string/book_tip" />
+    </group>
+
+
+    <!--  -->
+    <item android:title="@string/book_other">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@mipmap/book_setting"
+                android:title="@string/book_setting" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@mipmap/book_about"
+                android:title="@string/book_about" />
+        </menu>
+    </item>
+
+
+</menu>

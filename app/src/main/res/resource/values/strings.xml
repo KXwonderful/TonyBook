@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TonyBook</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="text_test">测试文字</string>
+
+    <string name="book_home">首页</string>
+    <string name="book_turnover">流水</string>
+    <string name="book_chart">图表</string>
+    <string name="book_tip">理财小知识</string>
+    <string name="book_tools">工具</string>
+    <string name="book_setting">设置</string>
+    <string name="book_about">关于</string>
+    <string name="book_other">其它</string>
+</resources>
